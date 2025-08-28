@@ -540,10 +540,12 @@ background: radial-gradient(
         padding-bottom: 0;
         
     }
+   
     .box{
         height: 320px;
         padding-bottom: 40px;
-        padding-top: 40px;
+        padding-top: 30px;
+        
     }
     .box-h {
         font-size: 1.8rem;
@@ -652,7 +654,7 @@ background: radial-gradient(
         left:7px;
     }
     .box{
-        margin-top: 20rem;
+        margin-top: 27rem;
     }
 
     .start-h1{
