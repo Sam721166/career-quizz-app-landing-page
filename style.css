@@ -11,7 +11,6 @@ body{
     width: 100vw;
     height: 100vh;
 
-
 }
 .main{
     width: 100vw;
@@ -123,6 +122,7 @@ background: radial-gradient(
     margin-top: 2.5rem;
     display: flex;
     justify-content: center;
+    
 }
 .button-start .start {
     background-color: rgba(0, 0, 0, 0.862);
@@ -130,6 +130,7 @@ background: radial-gradient(
     padding: 11px 32px;
     border-radius: 50px;
     font-size: 1rem;
+    font-weight: 200;
     transition: all 0.1s linear;
     cursor: pointer;
     border: none; 
@@ -435,16 +436,20 @@ background: radial-gradient(
 .img2{
     height: 40px;
     width: 40px;
-    margin-left: 1rem;
 }
 .about{
-    padding: 1rem 5rem;
-    gap: 5rem;
+    display: flex;
+    padding: 1rem 5.5rem;
+    gap: 1.5rem;
+    justify-content: flex-start;
+    align-items: center;
 }
 .f-h2{
     font-weight: 200;
     padding-left: 5.5rem;
     padding-bottom: 5px;
+    text-align: left;
+    margin: 0;
     color: rgb(46, 46, 46);
 }
 
@@ -487,6 +492,10 @@ background: radial-gradient(
         margin-top: 2rem;
     }
 
+    /* Show image above text for the 2nd grid when stacked */
+    .g2-grid .grid11 { order: 1; }
+    .g2-grid .grid1-r { order: 2; }
+
     .grid1, .grid11, .grid1-r {
         width: 100%;
         margin: 0;
@@ -505,11 +514,19 @@ background: radial-gradient(
 
 @media screen and (max-width: 480px) {
     .nav {
-        padding-left: 1rem;
+        padding-left: 2rem;
+    }
+
+    .top-h, .buttom-h {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.3rem;
     }
 
     .top-h1, .top-h2, .buttom-h1, .buttom-h2 {
-        font-size: 2rem;
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 0;
     }
 
     .des-h1, .des-h2, .des-h3 {
@@ -520,23 +537,154 @@ background: radial-gradient(
     .box, .grid {
         margin-left: 1rem;
         margin-right: 1rem;
+        padding-bottom: 0;
+        
     }
-
+    .box{
+        height: 320px;
+        padding-bottom: 40px;
+        padding-top: 30px;
+    }
     .box-h {
         font-size: 1.8rem;
+        text-align: center;
+    }
+    .g1-grid{
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
 
+    /* Show image above text for the 2nd grid on small screens */
+    .g2-grid .grid11 { order: 1; }
+    .g2-grid .grid1-r { order: 2; }
+    .grid-h1{
+        font-size: 25px;
+        
+        
+    }
+    
+    .grid-p1{
+        font-size: 16px;
+    
+    }
+    .grid1-r{
+        margin: 0;
+    }
     .box-p {
         font-size: 1rem;
     }
-
+    .last-box{
+        margin: 1rem;
+    }
     .last1, .last2, .last3 {
         width: 100%;
+        height: 220px;
+
+    }
+    .last-h1{
+        font-size: 20px;
+        text-align: center;
     }
 
+    .last-p1{
+        font-size: 15px;
+        text-align: center;
+    }
+    .under{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     .why {
         margin-left: 1rem;
         width: 180px;
         font-size: 1.5rem;
+        margin-top: 10px;
+        
     }
+    .img1{
+        width: 200px;
+        height: 150px;
+    }
+    .footer{
+        height: 380px;
+        /* padding: 1rem; */
+        flex-direction: row;
+        justify-content: center;
+    }
+    .f-h1{
+        font-size: 3rem;
+        text-align: center;
+    }
+    .f-h2{
+        font-size: 1rem;
+        /* margin-left: rem; */
+        justify-content: center;
+        align-items: center;
+
+    }
+    .about{
+        flex-direction: row;
+        align-items: start;
+        /* padding: 10px 50px; */
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 0.5rem 1rem;
+    }
+    .img2{
+        height: 30px;
+        width: 30px;
+    }
+    .nav-h1{
+        font-size: 17px;
+    }
+    .nav-h2{
+        font-size: 19px;
+    }
+    .nav{
+        padding-bottom: 4rem;
+        padding-left: 10px;
+    }
+    .png{
+        height: 30px;
+        bottom: 17px;
+        left:7px;
+    }
+    .box{
+        margin-top: 20rem;
+    }
+
+    .start-h1{
+        font-size: 15px;
+        font-weight: 200;
+        padding: 0;
+    }
+    .top-h1{
+        font-size: 1.3rem;
+    }
+    .top-h2{
+        font-size: 1.3rem;
+    }
+    .buttom-h1{
+        font-size: 1.3rem;
+    }
+    .buttom-h2{
+        font-size: 1.3rem;
+    }
+    .top-h{
+        flex-direction: row;
+    }
+    .buttom-h{
+        flex-direction: row;
+    }
+   
+    .des-h1{
+        font-size: 14px;
+        margin: 0 2rem;
+    }
+    .des-h2{
+        font-size: 14px;
+    }
+    
 }
