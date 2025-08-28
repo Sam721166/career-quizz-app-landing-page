@@ -437,6 +437,10 @@ background: radial-gradient(
     height: 40px;
     width: 40px;
 }
+.img3{
+    height: 45px;
+    width: 45px;
+}
 .about{
     display: flex;
     padding: 1rem 5.5rem;
@@ -637,6 +641,10 @@ background: radial-gradient(
     .img2{
         height: 30px;
         width: 30px;
+    }
+    .img3{
+        height: 35px;
+        width: 35px;
     }
     .nav-h1{
         font-size: 17px;
