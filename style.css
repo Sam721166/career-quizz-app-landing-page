@@ -820,8 +820,12 @@ background: radial-gradient(
         display: flex;
         margin: 0;
         gap: 5px;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
         
     }
+    .des-h2, .des-h3 { white-space: nowrap; }
 }
 @media screen and (max-width: 480px) {
     /* Mobile-only header layout: 3 separate lines without color changes */
