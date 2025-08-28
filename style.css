@@ -641,12 +641,13 @@ background: radial-gradient(
         padding-bottom: 0;
         
     }
-   
+   .description{
+    margin-top: 6rem;
+   }
     .box{
         height: 320px;
         padding-bottom: 40px;
         padding-top: 30px;
-        
     }
     .box-h {
         font-size: 1.8rem;
