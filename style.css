@@ -621,9 +621,11 @@ background: radial-gradient(
         text-align: center;
         padding: 0;
     }
+
     .top-h{
         display: flex;
         flex-direction: column;
+        
     }
 
     .des-h1, .des-h2, .des-h3 {
@@ -709,11 +711,15 @@ background: radial-gradient(
         align-items: center;
     }
     .why {
-        margin-left: 1rem;
         width: 180px;
         font-size: 1.5rem;
         margin-top: 100px;
         
+    }
+    .whyus{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .img1{
         width: 200px;
@@ -722,7 +728,7 @@ background: radial-gradient(
     .footer{
         height: 380px;
         /* padding: 1rem; */
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
     }
     .f-h1{
@@ -797,11 +803,24 @@ background: radial-gradient(
     }
    
     .des-h1{
-        font-size: 14px;
-        margin: 0 2rem;
+        font-size: 0.8rem;
+        /* margin: 0 2rem; */
     }
     .des-h2{
         font-size: 14px;
+        font-size: 0.8rem;
+
+    }
+    .des-h3{
+        font-size: 14px;
+        font-size: 0.85rem;
+
+    }
+    .but-text{
+        display: flex;
+        margin: 0;
+        gap: 5px;
+        
     }
 }
 @media screen and (max-width: 480px) {
