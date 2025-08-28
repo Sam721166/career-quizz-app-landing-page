@@ -778,7 +778,12 @@ background: radial-gradient(
     .box{
         margin-top: 15rem;
     }
-
+    .top-text{
+        margin: -2rem;
+    }
+    .des-h1{
+        padding-bottom: 2rem;
+    }
     .start-h1{
         font-size: 15px;
         font-weight: 200;
