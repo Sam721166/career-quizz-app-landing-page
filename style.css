@@ -8,6 +8,7 @@
 
 }
 
+
 /* Scroll-triggered fade for grid texts */
 .grid1-r .grid-h1,
 .grid1-r .grid-p1 {
@@ -49,16 +50,17 @@ background: radial-gradient(
 }
 .nav-h{
     display: flex;
-    font-weight: 200;
+    
 }
 .nav-h2{
-    color: rgba(77, 68, 255, 0.862);
-    font-weight: 200;
+    color: rgba(75, 66, 245, 0.862);
+    font-weight: 600;
     font-size: 2.3rem;
 }
 .nav-h1{
-    font-weight: 500;
+    font-weight: 600;
     font-size: 2.3rem;
+    color: rgb(41, 42, 48);
 }
 .png{
     position: relative;
@@ -228,7 +230,9 @@ background: radial-gradient(
     padding: 0 8px;
     margin-left: 20px;
     margin-right: 50px;
+    
 }
+
 .grid2{
     width: 400px;
     height: 300px;
@@ -239,6 +243,7 @@ background: radial-gradient(
     justify-content: center;
     background-color: rgba(77, 68, 255, 0.073);
     padding: 0 8px;
+    
 }
 .grid3{
     width: 400px;
@@ -251,6 +256,7 @@ background: radial-gradient(
     justify-content: center;
     background-color: rgba(77, 68, 255, 0.056);
     padding: 0 8px;
+    
 }
 .g1-grid{
     margin-top: 3rem;
@@ -326,11 +332,11 @@ background: radial-gradient(
     transform: scale(1.05);
 }
 .why{
-    border: 3px solid rgb(124, 124, 124);
+    border: 4px solid rgba(79, 79, 224, 0.825);;
     border-radius: 20px;
-    color: rgb(0, 0, 0);
+    color: rgb(59, 55, 55);
     margin-top: 3rem;
-    font-weight: 200;
+    font-weight: 600;
     font-size: 2rem;
     width: 230px;
     padding: 5px 10px;
@@ -340,6 +346,7 @@ background: radial-gradient(
     margin-left: 8rem;
     margin-top: 10rem;
     margin-bottom: 2rem;
+    
 }
 .last-box{
     display: flex;
@@ -352,15 +359,17 @@ background: radial-gradient(
 .last1{
     width: 380px;
     height: 330px;
-    background-color: rgba(190, 190, 190, 0.349);
+    background-color: #b7b3f842;
     /* border: 2px solid black; */
     border-radius: 15px;
+    border: 1px solid rgb(147, 149, 148);
     padding: 24px 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     transition: all 0.15s linear; 
+    
 }
 .last1:hover{
     transform: scale(1.05);
@@ -369,22 +378,25 @@ background: radial-gradient(
     padding-top: 10px;
     padding-left:  30px;
     padding-right:  30px;
-    font-weight: 200;
-    font-size: 2.3rem;
-    color: rgba(35, 35, 205, 0.825);
+    font-weight: 600;
+    font-size: 2rem;
+    color: rgb(88, 88, 253);
+    text-align: center;
 }
 
 .last-p1{
     padding-top: 2rem;
     padding: 1.5rem 1.6rem;
+    text-align: center;
     
 }
 .last2{
     width: 380px;
     height: 330px;
-    background-color: rgba(190, 190, 190, 0.349);
+    background-color: #b7b3f842;
     /* border: 2px solid black; */
     border-radius: 15px;
+     border: 1px solid rgb(147, 149, 148);
     padding: 24px 20px;
     display: flex;
     flex-direction: column;
@@ -392,6 +404,7 @@ background: radial-gradient(
     text-align: start;
     align-items: center;
     transition: all 0.15s linear; 
+   
 }
 .last2:hover{
     transform: scale(1.05);
@@ -404,19 +417,22 @@ background: radial-gradient(
 }
 .last-p2{
     padding-top: 2rem;
+    text-align: center;
 }
 .last3{
     width: 380px;
     height: 330px;
-    background-color: rgba(190, 190, 190, 0.349);
+    background-color: #b7b3f842;
     /* border: 2px solid black; */
     border-radius: 15px;
+     border: 1px solid rgb(147, 149, 148);
     padding: 24px 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: start;
     transition: all 0.15s linear; 
+   
 }
 .last3:hover{
     transform: scale(1.05);
@@ -429,6 +445,7 @@ background: radial-gradient(
 }
 .last-p3{
     padding-top: 2rem;
+    text-align: center;
 }
 .footer1{
     display: flex;
@@ -437,19 +454,19 @@ background: radial-gradient(
 }
 .footer{
     width: 83%;
-    height: 380px;
-    background-color: rgb(208, 208, 208);
+    height: 300px;
+    background-color: rgb(224, 222, 222);
     border-radius: 20px;
     margin-top: 7rem;
 }
 .f-h1{
     font-weight: 800;
-    font-size: 8rem;
+    font-size: 6rem;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 1.5rem 3rem;
-    color: rgba(67, 67, 67, 0.104);
+    color: rgba(0, 0, 0, 0.188);
 }
 
 .img2{
