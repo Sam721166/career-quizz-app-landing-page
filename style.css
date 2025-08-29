@@ -133,6 +133,10 @@ background: radial-gradient(
     font-weight: 200;
     color: rgba(77, 68, 255, 0.862);
 }
+.anker{
+    text-decoration: none;
+    color: #ffffff;
+}
 .button-start{
     margin-top: 2.5rem;
     display: flex;
