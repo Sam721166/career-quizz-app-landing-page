@@ -476,15 +476,25 @@ background: radial-gradient(
 }
 .f-h2{
     font-weight: 200;
-    padding-left: 5.5rem;
-    padding-bottom: 5px;
+    /* padding-left: 5.5rem; */
+    /* padding-bottom: 5px; */
     text-align: left;
     margin: 0;
     color: rgb(46, 46, 46);
+    margin-top: 0.3rem;
 }
-
-
-
+.dexxin{
+    justify-content: center;
+    align-items: center;
+        display: flex;
+        gap: 0;
+        margin-top: 0.8rem;
+}
+.d-h2{
+    margin-left: 15px;
+    margin-top: 4px;
+    font-size: 2.1rem;
+}
 
 @media screen and (max-width: 1200px) {
     .nav {
@@ -571,6 +581,29 @@ background: radial-gradient(
     justify-content: center;
     margin-right: 8rem;
 }
+.f-h2{
+    font-weight: 200;
+    /* padding-left: 5.5rem; */
+    /* padding-bottom: 5px; */
+    text-align: left;
+    margin: 0;
+    color: rgb(46, 46, 46);
+    margin-top: 0.3rem;
+}
+.dexxin{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 0;
+    margin-top: 0.8rem;
+}
+.d-h2{
+    margin-left: -2.3rem;
+    margin-right: 2.3rem;
+    margin-top: 4px;
+    font-size: 1.6rem;
+}
+
 
 }
 
@@ -836,6 +869,32 @@ background: radial-gradient(
         
     }
     .des-h2, .des-h3 { white-space: nowrap; }
+    .f-h2{
+        margin-right: -0.5rem;
+    }
+    .d-h2{
+        font-size: 1.2rem;
+        margin-top: 3px;
+        
+    }
+    .dexxin{
+        gap: 0;
+    }
+    .dexxin{
+        display: flex;
+        gap: 0;
+        margin-top: 0.8rem;
+    }
+    .d-h2{
+        font-size: 1.6rem;
+        color: rgb(24, 24, 24);
+        margin-left: -2rem;
+        margin-right: 2rem;
+
+    }
+
+
+
 }
 @media screen and (max-width: 480px) {
     /* Mobile-only header layout: 3 separate lines without color changes */
